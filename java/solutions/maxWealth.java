@@ -36,3 +36,29 @@ class Solution {
             return maxValueFromSums;
     }
 }
+
+
+/*
+solution using forEach loop:
+
+public class MyClass {
+    public static void main(String args[]) { 
+      int[][] array = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};  
+      
+      int max = 0; 
+      for(int[] customer : array){ 
+          int currentCustomerSum = 0;
+          for(int bank : customer){
+              currentCustomerSum = currentCustomerSum + bank; 
+          }
+          max = Math.max(max, currentCustomerSum);
+          
+      }
+      
+      System.out.println(max);
+       
+    } 
+}
+
+
+*/
