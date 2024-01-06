@@ -1,3 +1,13 @@
+/*
+        read each row value
+        sum each value of the row
+        add it to an arrayList 
+        repeat until rows.length = 0 
+        ask which value in the arrayList is greater
+        
+      
+      */
+
 import java.util.ArrayList;
 import java.util.Collections;
 
